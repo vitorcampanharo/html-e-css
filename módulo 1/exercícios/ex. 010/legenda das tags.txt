@@ -1,0 +1,9 @@
+<source media="(max-width: ..tamanho..)" srcset="..imagem.." type="image/..tipo de arquivo da imagem..">: Esta tag deve ser usada dentro da tag <picture>, junto com a imagem original primária. Este recurso serve para a imágem mudar de tamanho conforme muda o tamanho da janela.
+
+<audio scr="" autoplay controls loop>: para colocar uma música na página, colando o arquivo dentro das áspas. "autoplay" serve para iniciar a música automaticamente ao entrar no site, nem todos os navegadores são compatíveis. "controls" serve para mostrar os comando de play e pausa, também a barra de duração. "loop" para a musica tocar infinamente após finalizar.
+
+Formatos de audio: mp3 ou mpeg; ogg; wav(mais pesado)
+
+<video scr="" width="" poster="" controls>: Tag para colocar vídeo na página dentro de scr com o arquivo mp4. "Width" para definir o tamanhdo da janela do vídeo. "poster" para colocar uma imágem no quadrado do vídeo antes de executar o vídeo. "controls" mesmo esquema dos audios, para aparecer os comandos de play e pause junto com barra de tempo. 
+
+É possível buscar vídeo externamente do you tube ou vimeo. Basta clicar em "compartilhar" e "incorporar", e copiar o código formado e colar diretamente no html

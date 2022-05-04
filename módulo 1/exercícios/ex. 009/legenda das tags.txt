@@ -1,0 +1,13 @@
+<a href="".. /a>: Para criar links externos. A url é escrita dentro das áspas, e o texto ancora será escrito ao lado.
+
+<a href="".. target="_blank" rel="external" /a>: Desta forma, o link será aberto em outra aba do navegador graças ao termo "_blank", e rel significa relativo à. 
+
+Para criar links internos, basta apenas dentro das áspas em href, usar o atalho ctrl+espaço para selecionar a outr página previamente criada 
+..._self...: Serve para abrir o link dentro da mesma aba.
+
+Dica: caso esteja em uma aba que esteja dentro de uma pasta, o único modo de voltar é digitar ../ dentro das áspas, ../ significa pasta anterior, ./ significa mesma pasta. 
+
+Links para dowload: Parece que só dá para baixar quando está compactado em .rar
+
+
+

@@ -1,0 +1,12 @@
+Tudo feito dentro de CSS:
+
+* { height: 100%}: Para a tela não ficar quebreada na hora do degrade. OBS("*" representa configurações globaix de css)
+
+background-image: linear-gradient: Parâmetro para criar fundos degrade (gradiente).
+
+background-image: linear-gradient(to right, black, red);: Significa que o efeito degrade irá começar da direita para esquerda. "to top" será de cima para baixo, "to bottom" de baixo para cima, e assim em diante. Dentro do mesmo parenteses, deve-se colocar as cores separadas com virgula.
+
+background-attachment: fixed: O fundo não irá se mover com a barra de rolagem, se manterá fixo
+
+É possível definir a proporção usada em cada cor, tornando ela predominante. Basta colocar um percentual ao lado da cor
+

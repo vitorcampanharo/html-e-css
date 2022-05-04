@@ -1,0 +1,4 @@
+border-style: Para definir um estilo da borda, uma decoração diferenciada.
+ctrl+shift+i: Abre o modo desenvolvedor do google chrome
+
+OBS: Ao definir as medias em 'px' nos parâmetros, deve-se começar por cima, e girando no sentido horário, nesta ordem: topo-> right-> botoom-> left.

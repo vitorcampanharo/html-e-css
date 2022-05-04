@@ -1,0 +1,17 @@
+TUDO FEITO EM CSS:
+
+border-radius: Para definir o arredondamento das bordas, digitando em px
+
+padding: Para definir a grossura da boda interna, entre as letras e a borda
+
+width: para definir a largura da borda externa
+
+box-shadow: Configura a sombra da borda. É dividido em 3 partes, o primeiro px é para definir o tamanho da sombra lateral. O segundo px é para definir o tamanho da borda inferior. O terceiro px para definir o quanto se expalha a sombra. Após isso se define a cor da sombra.
+
+margin: auto;: Para o texto dentro da borda interna ficar sempre centralisado no meio. OBS(não é a mesma coisa que reponsividade).
+
+text-shadow: Mesma ideia do box-shadow. Este é para definir a sombra das letras.
+
+text-aling: Para definir o alinhamento do texto de forma geral.
+
+text-indent: Para definir o espaçamento na frente de cada parágrafo, é definido em px

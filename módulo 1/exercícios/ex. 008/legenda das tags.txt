@@ -1,0 +1,6 @@
+<ol>: Listas ordenadas com sequências. (OBS: pode vir acompanhado da type "a" para letras)
+<li>: Ítem dentro das listas
+<ul>: Listas não ordenadas, onde a ordem não importa.
+<dl>: Abre listas descritivas
+<dt>: Cria o tópico que será descrito
+<dd>: Descrição do tópico

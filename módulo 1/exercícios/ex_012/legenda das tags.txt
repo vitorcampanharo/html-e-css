@@ -1,0 +1,5 @@
+<style>: Para abrir CSS, deve ser digitado dentro da tag de <head> preferencialmente abaixo do <title>
+
+Para modificar, basta digitar a tag de HTML correspondente que deseja alterar e abrir chaves {}, dentro das chaves {} deve-se acrescentar os parâmetros e valores para formar os estilos, existem vários parâmetros para usar.
+
+OBS: Este método´deve ser usado quando há apenas uma página web, pois caso tenha que modificar multiplas páginas, seria necessáriomodifias as CSSs de cada pádiga dando muito trabalho.

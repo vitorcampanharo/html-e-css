@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover</title>
+    <style>
+        div > p{
+            display: none;
+        }
+        div{
+            background-color: red;
+            height: 100px;
+            width: 100px;
+            color: red;
+        }
+        div:hover{
+            border: 5px solid black;
+        }
+        div:hover > p{
+            display: block;
+            color: rgb(6, 228, 98);
+            font-weight: bolder;
+        }
+        .dentro{
+            color: blue;
+        }
+        .fora{
+            color: brown;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Exemplos de hover</h1>
+    <p>Toque na caixa</p>
+    <div>1
+        <p>TE AMUUU</p>
+    </div>
+<a href="index.html">Anterior</a>
+    <h2 class="dentro">Dentro</h2>
+    <h2 class="fora">Fora</h2>
+</body>
+</html>

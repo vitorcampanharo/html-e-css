@@ -1,0 +1,8 @@
+<strong>: Deixar em negrito
+<em>: Deijar em itálico
+<mark>: Funciona como um marca texto
+<big> e <small>: Para criar um texto grande e pequeno respectivamente.
+<sup> e <sub>: Para criar um texto sobre o outro (como x ao quadrado) e texto sob o outro (como o número 2 do h2o).
+<del>: Texto deletado, é possível ler mas está riscado por cima.
+<ins>: Texto inserido, para destacar um texto de importãncia, sublinhando-o
+OBS: Essas tags se referem ao sentido do texto, à semântica dele, e não necessariamente somente à forma (exceto a tag <big>)

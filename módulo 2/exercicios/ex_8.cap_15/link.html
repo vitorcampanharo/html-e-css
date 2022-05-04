@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-elementos</title>
+    <style>
+        p{
+            text-indent: 20px;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+        a{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: rgb(175, 120, 120);
+            display: block;
+            text-decoration: underline;
+        }
+        a::after{
+            content: '⇦';
+            
+        }
+        a::before{
+            content: '⇨';
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo-classes e Pseudo-elementos em links</h1>
+    <p>Confira nossas redes sociais</p>
+    <ul>
+        <li><a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank">You tube</a></li>
+        <li><a href="https://pt-br.facebook.com/" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/" target="_blank">Instagran</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupamento de caixas</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Pacifico&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        body{
+            background-image: linear-gradient(to right, red, yellow);
+        }
+        .conteudo{
+            background-color: rgb(66, 128, 128);
+            font-family: 'Work Sans', sans-serif;
+            border-style: solid;
+            border-color: black;
+            padding: 10px;
+            border-radius: 10px 10px 0px 0px;
+            font-style: italic;     
+        }
+        .cabeçalho{
+            background-color: white;
+            border-style: solid;
+            border-color: black;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px black;
+            font-family: 'Work Sans', sans-serif;
+        }
+        .cabeçalho > h1{
+            text-align: center;
+        }
+        .navegação > a{
+            color: black;
+            margin-right: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 2px;
+            
+        }
+        .navegação > a:hover{
+            text-decoration: underline;
+        }
+        .referencias{
+            font-family: sans-serif;
+            background-color: black;
+            color: white;
+            margin-top: 30px;
+            text-align: center;
+            padding: 5px;
+            border-style: solid;
+            box-shadow: 5px 5px 10px black;
+            border-radius: 10px;
+        }
+        .navegação{
+            background-color: blueviolet;
+        }
+        .paginas{
+            text-align: center;
+        }
+        .paginas > a{
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .paginas > a:hover{
+            text-decoration: underline;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="cabeçalho">
+        <h1>A história do Brasil</h1>
+        <div class="navegação">
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </div>
+    </div>
+    <div class="conteudo">
+        <div class="titulo"></div>
+            <div class="corpo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed autem perferendis quibusdam quam, repellat soluta et pariatur distinctio assumenda consequatur, eos nemo laboriosam. Omnis dolorum nulla illum neque praesentium fugit.</p>
+            </div>
+    </div>
+    <div class="referencias">
+        <p>Escrito por jorge amado</p>
+    </div>
+    <p class="paginas">
+        <a href="index.html">Anterior</a>
+        <a href="teste.html">Próximo</a>
+    </p>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<style>: Para abrir CSS, deve ser digitado dentro da tag de <head> preferencialmente abaixo do <title> OBS: CSS interno
+
+<link rel="stylesheet" href="style.css">: Esta tag é para abrir um arquivo separado externo de CSS, deve ser digitada dentro de <head> preferencialmente abaixo de <title>
+
+Para modificar, basta digitar a tag de HTML correspondente que deseja alterar e abrir chaves {}, dentro das chaves {} deve-se acrescentar os parâmetros e valores para formar os estilos, existem vários parâmetros para usar.
+
+OBS: Este método´deve ser usado quando há apenas uma página web, pois caso tenha que modificar multiplas páginas, seria necessáriomodifias as CSSs de cada pádiga dando muito trabalho.
+
+Existem três modos de alicar o CSS. O modo in line linha por linha que não é usual e extremamente trabalhoso. O modo interno que é eficiente quando se tem uma página apenas, mas para multiplas páginas se torna inviável. E o modo externo atravez de link, que é o mais versátil. Poré existe uma hierarquia entre esses métodos, caso uso os três ao mesmo tempo nas páginas, vai prevalecer o estilo in line primeiro, após ele o estilo interno, e por ultimo será chamado o estilo externo por link
+
+/* */: Para abrir comentários dentro do CSS

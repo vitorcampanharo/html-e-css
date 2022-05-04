@@ -1,0 +1,6 @@
+<img scr="" alt=""> img serve para colocar o link da imagem (Ctrl + espaço), pode ser imagem interna dentro da pasta ou imagem externa copiando a URL da internet. Alt serve para esscrever um comentário sobre a imágem, para acessibilidade.
+
+<picture>: Esta tag serve para colocar várias imagens de forma que sempre fique a imagem mais adequada para o tamanho da tela. Dentro desta tag deve-se colocar primeiro a imágem principal (começe pela maior). Acima da imagem use a tag <source:media:type>. Aqui dentro será definido o tamanho maximo da tela em px (colocar sempre 50px a mais da imágem principal, que é a maior), e quando chegar nesta medida, o programa irá puxar a imagem de tamanho abaixo da principal
+media "(max-wideth)": definir tamanho limite para puxar próxima imágem
+srcset "..": endereço da imágem a ser puxada
+type "image/..": botar o formato da imagem, sendo jpg ou png

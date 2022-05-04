@@ -1,0 +1,9 @@
+<div>: É apenas um local para escrever coisas dentro, cada <div> ocupa uma linha
+
+<---Pseudo-classes--->
+
+div:hover: significa que ao passar o mouse em cima, algo vai aconteçer
+
+div:hover > p: significa que somente o parágrafo dentro da div irá ser editado
+
+OBS:Existem muuias outras funções como essa, utilizando ':' e '::'

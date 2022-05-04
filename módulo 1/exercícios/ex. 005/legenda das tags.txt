@@ -1,0 +1,3 @@
+&nbsp;: Serve para dar um espaço antes de parágrafos. 
+&ensp;: Serve para colocar dois espaços antes da linha.
+&emsp;: Para colocar quatro espaços antes da linha.

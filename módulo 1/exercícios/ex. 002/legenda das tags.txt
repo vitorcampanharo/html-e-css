@@ -1,0 +1,5 @@
+<br>: Quebra de linha dentro do parágrafo. Pois não adianda apertar enter que na página isso não mudará nada.
+
+&lt; e &gt;: Significa os simbolos <> respectivamente, para aparecer escrito na página como se fosse string. Caso contrário, a linguagem irá reconhecer como tag
+
+Emoji e simbolos: Existe uma lista com códigos correspondentes aos simbolos. No site "emojipedia" você encontra todos os emoji e seus respectivos códigos, sempre digitando com "&#x" no começo

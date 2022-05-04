@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Carreando imagens de diferentes tamanhos</h1>
+    <p>Carregar uma imagem flexivel que muda de tamanho de acordo com o tamanho da janela</p>
+    <picture>
+        <source media="(max-width: 450px)" srcset="imagens/tam-1.png" type="image/png">
+        <source media="(max-width: 650px)" srcset="imagens/tam-2.png" type="image/png">
+        <source media="(max-width: 850px)" srcset="imagens/tam-3.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/tam-4.png" type="image/png">
+        <img src="imagens/tam-5.png" alt="foto flexivel">
+    </picture>
+    <h1>Reproduzir musica</h1>
+    <p>Agora vamos reproduzir musicas</p>
+    <audio src="audio/Campfire - Telecasted.mp3" autoplay controls loop></audio>
+    <p>Caso queira baixar a música, basta clicar <a href="audio/Campfire - Telecasted.rar">aqui</a>.</p>
+    <h1>Reprodir videos</h1>
+    <p>Agora vamos reprodizir videos em nossa página.</p>
+    <video src="video/Marvel Studios' Doctor Strange in the Multiverse of Madness _ Dream.mp4" width="600" poster="imagens/Marvel_Logo.svg.png" controls></video>
+    <p>Caso queira baixar o vídeo, clique <a href="video/Marvel Studios' Doctor Strange in the Multiverse of Madness _ Dream.rar">aqui</a></p>
+    <h1>Reprodizir vídeos externos</h1>
+    <p>Consumir videos internos pode gerar custos altos para o cliente. É possível colocar vídeos direto do you tube ou vimeo</p>
+    <p><strong>Pelo you tube:</strong></p>
+    <iframe width="600" height="315" src="https://www.youtube.com/embed/NLTYw1s4e-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <p><strong>Pelo vimeo:</strong></p>
+    <iframe src="https://player.vimeo.com/video/695452213?h=e38bd0f641&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

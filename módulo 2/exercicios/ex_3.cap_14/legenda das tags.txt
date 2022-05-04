@@ -1,0 +1,18 @@
+TUDO FEITO EM CSS
+-Shorthand-
+Um atalho para configurar as fontes. É integrada à alguns parêmetros e deve ser usado em uma ordem específica. OBS: Nem todas as fontes suportam esta configuração.
+
+font-family: Para definir o tipo de letra.
+
+font-weight: Define o peso da fonte (como se fosse negrito). Os valores varias entre lighter, normal, bol e bolder. Também tem variação numérica de 100 a 900.
+
+font-size: definida em 'px' ou 'em'		
+
+font-style: Pode-se colocar em itálico.
+
+text-decoration: para sublinhar.
+
+Ordem para o shorthand funcionar, usando a tag 'font:'
+font-style-> font-weight-> font-size-> font-family.
+Agora basta apenas escrever os valores correspondentes dentro da tag 'font' sem precisar escrever os parêmetros antes.
+

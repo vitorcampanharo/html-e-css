@@ -1,0 +1,28 @@
+É possível alterar a decoração CSS de apenas um seletor, mesmo que este mesmo seletor já esteja sendo editado.
+Basta colocar ao lado da tag ima 'id' (identificação) e aplicar um valor. Exemplo:
+<h1>
+<h1 id="principal">
+
+E na página do CSS, para chamar este identificador basta colocar '#' ao lado do seletor. Exemplo:
+h1{
+ }
+#principal{
+ }
+
+Da mesma forma, é possível alterar um grupo de elementos usando 'class'. Exemplo:
+<h2>
+<h2 class="basico"
+
+Na página CSS o comando class é chamado por um ponto (.) Exemplo:
+h2{
+ }
+.basico{
+ }
+É possível evocar esse mesmo elemento mais de uma vez, para outros 'h2s'
+
+Desta forma é possível editar um ítem em específico dentro de uma mesma página CSS, sem precisar recorrer ao style in line.
+
+OBS: 'id' usado em HTML é chamado por '#' em CSS. E 'class' usado em HTML é chamado por '.' (ponto) em CSS.
+OBS 2: Só pode existir apenas UM id dentro de cada págida HTML. Para alterar mais de um ítem em específico dev-se utilizar o class
+OBS3: É possível colocar 'id' e 'class' no mesmo elemento simuntaneamente, mas o 'id' sempre irá sobrepor com hierarquia maior.
+OBS4: É possível colocar mais de um valor dentro de uma mesma 'class'.

@@ -1,0 +1,45 @@
+Toda a página html é formado por caixas, e é possível construir tags caixas uma dentro da outra ou separadamente, para poder personalizar cada uma.
+A tags semânticas são :
+
+<header>: cabeçalho
+
+<nav>: navegação, barra superior da maioria dos sites com as abas (fora do 
+<header>)
+
+<main>: corpo principal
+
+<article>: local mais interno, dentro da <main>, onde será colocado os textos
+
+<aside>: mais um espaço específico para outros textos, geralmente links, 
+escrito dentro do <article>
+
+<footer>: rodapé
+
+:root{
+	--nome_variavel: ....
+} Neste ítem, é possível criar variáveis em CSS através do comando root, '--nome' é o comando para nomear a variável, e em seguida colocar o valor, podendo ser uma cor, uma fonte, etc..
+
+*{
+	margin: opx;
+	pading: 0px;	
+} Este é um parâmetro universal que determina valores para todos os elementos do HTML, como se fosse um parâmetro coringa. Neste caso do exemplo, definindo margin e paginng 0 para TUDO
+
+nav a{
+	transition-duration: 0.5s;
+} É a duração do efeito animado quando passar o mouse por sima do link
+
+article p{
+	line-heigth: 26px;
+} É a altura de uma linha para outra, espaçamento entre as linhas do parágrafo.
+
+aside ul {
+	 list-style-position: inside
+} Para posicionar os ícones das listas para dentro do bloco
+
+aside ul {
+	coluns: 2;
+} Para dividir os ítens das listas em colunas, no caso duas colunas dentro do bloco.
+
+
+
+(OBS: Para tornar o <main> flexivel, basta colocar os comandos CSS max-wdth: 800px e min-width: 400px

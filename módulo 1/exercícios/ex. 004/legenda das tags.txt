@@ -1,0 +1,1 @@
+link:favicon: para colocar ícones na aba da página, na parte "href"

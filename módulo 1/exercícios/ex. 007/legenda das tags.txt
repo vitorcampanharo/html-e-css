@@ -1,0 +1,10 @@
+<code>: Deixa o texto em formato ideal para representar funções de linguagens de programação.
+
+<pre>: É usado do lado de fora de <code> (o <code> fica identado em <pre>).Esta função serve para deixar o texto identado na página web.
+
+<q>: Fazer uma citação (é quase a mesma coisa que botar aspas manualmente)
+
+<blockquete cite="">: Para uma citação completa, em que o texto é dito, e o endereço de URL fica em "cite".
+
+<abbr title="">: Serve para explicar abreviações, em "title" escrever o título inteiro da abreviação. Ao passar o mpuse por cima, irá mostrar o nome inteiro
+

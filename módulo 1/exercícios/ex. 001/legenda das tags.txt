@@ -1,0 +1,13 @@
+<!DOCTIPY HTML>: Toto documento HTML deve comeaçar assim, pois é a abertura do HTML 5
+
+<title>: Nome que aparecerá na aba do navegador
+
+<h1>: Títudo do corpo da página
+
+<hr>(não precisa fechar tag): Criar uma linha na horizontal 
+
+<p>: Parágrafo
+
+<!-- --!>: Abrir comentários em HTML
+
+

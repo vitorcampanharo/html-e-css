@@ -1,0 +1,13 @@
+TUDO FEITO EM CSS
+É possível importar fontes externas que não estão na máquina atravez do google fonts.
+Basta entrar no site 'google font', escolher a fonte desejada e ir em 'import' e copiar o link dirato para o CSS
+
+Para importar fontes que não existem nem na máquina nem no google fonts, basta baixar o arquivo da fonte em outros sites.
+
+@fonte-face: Regra para 'puxar' o arquivo baixado
+
+font-family: Criar o nome da fonte, já que ela não existe em lugar nenhum
+
+scr: url(".."): colocar o arquivo baixado, como se fosse kink
+
+format(): colocar o tipo do arquivo, que pode ser ttf(truetype, ou otf(opentype).
