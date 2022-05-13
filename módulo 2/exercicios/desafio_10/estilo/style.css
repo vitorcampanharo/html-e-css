@@ -70,8 +70,7 @@ main .pequena{
 article{
     text-align: justify;
     font-family: var(--font_padrão), Helvetica, sans-serif;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.123);
-    
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.123); 
 }
 article h1{
     color: #004921;
