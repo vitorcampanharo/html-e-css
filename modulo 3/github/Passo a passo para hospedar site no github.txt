@@ -1,0 +1,11 @@
+1º Copiar todo o conteúdo da pasta onde foi feito o projeto (arquivos de immágem,arquivo .html, arquivo .css, etc)
+
+2º Ir no github desktop e criar um novo repositório com o nomo do projeto, e selecionar o destino dentro da pasta "projetos".
+
+3º Apos criar o repositório, publicar no github remoto.
+
+4º Após isso, ir em "show in explorer" para abrir direto na pasta repositório que foi criada, e colar todo o conteúdo do exercício já copiado anteriormente.
+
+5º Comitar todas essas mudanças no git local, e dps publicar novamente no github remoto.
+
+6º Acessar o github no navegador, entrar no repositório do projeto, e ir em "pages" para hospedar. O link fica printo de 3 a 30 min.
