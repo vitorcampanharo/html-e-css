@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table{
+            height: 200px;
+            padding: 5px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        thead tr th{
+            position: sticky;
+            top: -1px;
+        }
+        caption{
+            font-size: 1.2em;
+            font-weight: bold;
+            background-color: rgb(94, 94, 94);
+            color: white;
+        }
+        th, .num_total{
+            background-color: rgb(0, 0, 0);
+            color: white;
+        }
+        tr, td, th{
+            border: 1px solid black;
+        }
+        .num, .num_total{
+            text-align: right;
+        }
+        .num_total{
+            font-weight: bolder;
+            color: white;
+        }
+        .pop{
+            width: 100px;
+        }
+        .estado{
+            width: 150px;
+        }
+        .pib{
+            width: 100px;
+        }
+        .renda{
+            width: 100px;
+        }
+        .tam{
+            width: 100px;
+        }
+        tbody tr:nth-child(odd){
+            background-color: rgb(207, 207, 207);
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas grandes</h1>
+    <table>
+        <caption>Tabela da população dos Estados</caption>
+        <thead>
+            <tr>
+                <th class="estado">Estado</th>
+                <th class="pop">População</th>
+                <th class="pib">PIB</th>
+                <th class="renda">renda p/capita</th>
+                <th class="tam">Tamanho</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">95.625.872</td>
+                <td class="num">658</td>
+                <td class="num">596</td>
+                <td class="num">659</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">59.636.595</td>
+                <td class="num">658</td>
+                <td class="num">596</td>
+                <td class="num">659</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">3.659.364</td>
+                <td class="num">658</td>
+                <td class="num">596</td>
+                <td class="num">659</td>
+            </tr>
+            <tr>
+                <td>Espirito Santo</td>
+                <td class="num">89.321.685</td>
+                <td class="num">658</td>
+                <td class="num">596</td>
+                <td class="num">659</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td class="num">9.658.325</td>
+                <td class="num">658</td>
+                <td class="num">596</td>
+                <td class="num">659</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">69.658.128</td>
+                <td class="num">658</td>
+                <td class="num">596</td>
+                <td class="num">659</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <td class="num_total">156.947.625.98</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, qui hic quis quibusdam, vel nam, nobis voluptatum sunt iste nihil nesciunt! Dolores, aliquam inventore. Aliquid voluptas ex iure deleniti cum!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, qui hic quis quibusdam, vel nam, nobis voluptatum sunt iste nihil nesciunt! Dolores, aliquam inventore. Aliquid voluptas ex iure deleniti cum!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, qui hic quis quibusdam, vel nam, nobis voluptatum sunt iste nihil nesciunt! Dolores, aliquam inventore. Aliquid voluptas ex iure deleniti cum!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, qui hic quis quibusdam, vel nam, nobis voluptatum sunt iste nihil nesciunt! Dolores, aliquam inventore. Aliquid voluptas ex iure deleniti cum!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, qui hic quis quibusdam, vel nam, nobis voluptatum sunt iste nihil nesciunt! Dolores, aliquam inventore. Aliquid voluptas ex iure deleniti cum!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, qui hic quis quibusdam, vel nam, nobis voluptatum sunt iste nihil nesciunt! Dolores, aliquam inventore. Aliquid voluptas ex iure deleniti cum!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, qui hic quis quibusdam, vel nam, nobis voluptatum sunt iste nihil nesciunt! Dolores, aliquam inventore. Aliquid voluptas ex iure deleniti cum!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, qui hic quis quibusdam, vel nam, nobis voluptatum sunt iste nihil nesciunt! Dolores, aliquam inventore. Aliquid voluptas ex iure deleniti cum!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, qui hic quis quibusdam, vel nam, nobis voluptatum sunt iste nihil nesciunt! Dolores, aliquam inventore. Aliquid voluptas ex iure deleniti cum!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, qui hic quis quibusdam, vel nam, nobis voluptatum sunt iste nihil nesciunt! Dolores, aliquam inventore. Aliquid voluptas ex iure deleniti cum!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, qui hic quis quibusdam, vel nam, nobis voluptatum sunt iste nihil nesciunt! Dolores, aliquam inventore. Aliquid voluptas ex iure deleniti cum!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, qui hic quis quibusdam, vel nam, nobis voluptatum sunt iste nihil nesciunt! Dolores, aliquam inventore. Aliquid voluptas ex iure deleniti cum!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, qui hic quis quibusdam, vel nam, nobis voluptatum sunt iste nihil nesciunt! Dolores, aliquam inventore. Aliquid voluptas ex iure deleniti cum!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, qui hic quis quibusdam, vel nam, nobis voluptatum sunt iste nihil nesciunt! Dolores, aliquam inventore. Aliquid voluptas ex iure deleniti cum!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, qui hic quis quibusdam, vel nam, nobis voluptatum sunt iste nihil nesciunt! Dolores, aliquam inventore. Aliquid voluptas ex iure deleniti cum!</p>
+
+</body>
+</html>
