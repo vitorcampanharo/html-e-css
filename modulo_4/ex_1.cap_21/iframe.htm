@@ -7,9 +7,12 @@
     <title>trabalhado com iframes</title>
     <style>
         iframe{
-            border-style: inset;
+            border: 1px solid black;
             width: 400px;
             height: 400px;
+        }
+        li{
+            display: block;
         }
     </style>
 </head>
@@ -17,5 +20,12 @@
     <h1>Introdução ao iframe</h1>
     <p>Para mais informações navegue pelo site: <br> <iframe src="https://www.cursoemvideo.com/"></iframe> </p>
     <p>Ou pode ter acesso à segunda página: <br> <iframe src="inframe_page2.htm" frameborder="0"></iframe></p>
+    <p>Para acessar mais páginas:</p>
+    <ul>
+        <li><a href="pag_1.htm" target="iframe">Primeira página</a></li>
+        <li><a href="pag_2.htm" target="iframe">Segunda página</a></li>
+        <li><a href="pag_3.htm" target="iframe">Terceira página</a></li>
+    </ul>    
+        <iframe src="" frameborder="0" name="iframe"></iframe>
 </body>
 </html>
