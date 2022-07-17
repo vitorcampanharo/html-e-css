@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="plano_fundo">
+        <form action="pedido_pizza.js" autocomplete="off" method="post">
+            <h1>Pedido de pizza</h1>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" required placeholder="Nome e sobrenome">
+            </p>
+            <p>
+                <label for="iendereco">Endereço:</label>
+                <input type="text" name="endereco" id="iendereco" required placeholder="Rua Nº, bairro, cidade">
+            </p>
+            <p>
+                <label for="icontato">Nº de contato:</label>
+                <input type="tel" name="contato" id="icontato" required placeholder="xx xxxxx-xxxx" pattern="[1-9]{2} [0-9]{5}-[0-9]{4}">
+            </p>
+            <p>
+                <label for="isabor">Sabor da pizza:</label> <br>
+                <input type="radio" name="sabor" id="isabor" required> Frango c/ catupiry
+                <input type="radio" name="sabor" id="isabor" required> Carne seca
+                <input type="radio" name="sabor" id="isabor" required> Quatro queijos
+                <input type="radio" name="sabor" id="isabor" required> Marguerita
+            </p>
+            <p>
+                <label for="icomplementos">Complementos:</label> <br>
+                <input type="checkbox" name="complemento" id="icomplementos"> Picles <br>
+                <input type="checkbox" name="complemento" id="icomplementos"> Tomate seco <br>
+                <input type="checkbox" name="complemento" id="icomplementos"> Cebola <br>
+                <input type="checkbox" name="complemento" id="icomplementos"> Borda recheada c/ chedar <br>
+                <input type="checkbox" name="complemento" id="icomplementos"> Borda recheada c/queijo <br>
+                <input type="checkbox" name="complemento" id="icomplementos"> Queijo extra <br>
+                <input type="checkbox" name="complemento" id="icomplementos"> Chedar extra
+            </p>
+            <p>
+                <label for="irefi">Refrigerante?</label>
+                <input type="radio" name="refri" id="irefri" required>Sim
+                <input type="radio" name="refri" id="irefri" required>Não
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+    </div>
+</body>
+</html>
