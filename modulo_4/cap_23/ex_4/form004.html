@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-image: linear-gradient(to left, black, rgb(163, 163, 163));
+        }
+        form{
+            background-color: white;
+            max-width: 400px;
+            min-width: 300px;
+            margin: auto;
+            border-radius: 5px;
+            border-style: ridge;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+            padding: 5px;
+        }
+        form h1, form p{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="index.js" method="post">
+        <h1>Fechamento do ano letivo</h1>
+        <p>
+            <label for="inome">Nome do aluno:</label>
+            <input type="text" name="nome" id="inome" required>
+        </p>
+        <p>
+            <label for="imes_comeco">Começo das aulas</label>
+            <input type="month" name="inicio" id="imes_comeco" required>
+        </p>
+        <p>
+            <label for="imes_final">Final das aulas</label>
+            <input type="month" name="final" id="imes_final" required>
+        </p>
+        <p>
+            <label for="idata">Data da entrega do dipoma:</label>
+            <input type="date" name="data" id="idata" required>
+        </p>
+        <p>
+            <label for="ihora">Horário em quee foi disponibilizado no site:</label>
+            <input type="time" name="hora" id="ihora" required>
+        </p>
+        <p>
+            <label for="imedia">Média final:</label>
+            <input type="number" name="media_final" id="imedia" required step="0.1" placeholder="0 a 10" max="10" min="0">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
