@@ -1,0 +1,41 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    padding: 10px;
+    background-color: rgb(168, 168, 168);
+}
+header h1{
+    text-align: center;
+    text-decoration: underline;
+}
+nav ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+    padding: 5px;
+    font-weight: bolder;
+}
+/* Serve para centralizar um trecho e ficar responsivo */
+main{
+    padding: 10px;
+}
+article{
+    line-height: 1.2em;
+    width: 600px;
+    display: block;
+    margin: auto;
+}
+article h2{
+    padding: 5px;
+    text-decoration: underline;
+}
+footer{
+    padding: 10px;
+}
