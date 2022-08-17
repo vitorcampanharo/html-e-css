@@ -3,11 +3,14 @@
     margin: 0px;
     padding: 0px;
 }
+html{
+    height: 100vh;
+}
 body{
     background-image: url(../../imagens/back-phone.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 97vh;
+    background-position: center center;
 }
 main{
     background-color: rgba(255, 255, 255, 0.781);
@@ -27,3 +30,4 @@ main h1{
 #impressora{display: none;}
 #tablet{display: none;}
 #tv{display: none;}
+
