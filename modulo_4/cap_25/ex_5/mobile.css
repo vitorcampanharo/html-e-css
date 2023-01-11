@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@media screen and (max-width: 768px){
+    #itens span{
+        text-align: center;
+        margin: 2px;
+        display: none;
+    }
+    #itens span::after{
+        display: block;
+    }
+    #menu{
+        background-color: rgb(68, 68, 68);
+        text-align: center;
+        display: block;
+    }
+    #menu:hover{
+        background-color: white;
+        color: rgb(68, 68, 68);
+        cursor: pointer;
+    }
+}
