@@ -1,0 +1,27 @@
+@charset "UTF-8";
+@media screen and (min-width: 768px){
+    #hamburg{
+        display: none;
+    }
+    #menu li{
+        display: none;
+    }
+    #menu2{
+        display: inline;
+    }
+    #menu2 a{
+        text-decoration: none;
+        padding: 10px;
+        background-color: rgb(65, 65, 65);
+        color: white;
+
+        border: 1px solid gray;
+    }
+    #menu2 li{
+        display: inline-block;
+    }
+    #menu2 a:hover{
+        background-color: gray;
+        color: black;
+    }
+}
